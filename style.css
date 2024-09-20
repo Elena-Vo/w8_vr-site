@@ -1,0 +1,220 @@
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  color: #333;
+}
+
+/* Стили для навигации */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 45px;
+}
+
+.header__logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.header__link-home {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.header__link-home:hover {
+  color: #0056b3;
+}
+
+/* Общие стили кнопок */
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #5222d0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button__icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.button--large {
+  padding: 15px 30px;
+  font-size: 34px;
+  width: 270px;
+  height: 84px;
+}
+
+.button__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.icon--large {
+  width: 42px;
+  height: 29px;
+  margin-left: 10px;
+}
+
+/* Стили для подвала */
+.footer {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 34px;
+}
+/* Синий текст футера для страницы 1 */
+.footer.blue .footer__link {
+  color: #5222d0;
+}
+
+/* Черный текст футера для страницы 2 */
+.footer.black .footer__link {
+  color: #333;
+}
+
+/* Стили для основной секции 1 страницы */
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  align-items: center;
+}
+
+.main__text {
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-left: 40px;
+}
+
+.main__title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.main__image-pic {
+  height: auto;
+  flex-basis: 50%;
+}
+
+.main__description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Стили для основной секции 2 страницы */
+.titlep2 {
+  margin-left: 80px;
+}
+
+.main__features {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-left: 40px;
+}
+
+.main__column {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.main__feature-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.main__feature-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main__feature-description,
+.main__feature-subdescription {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.main__feature-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Форма подписки 2 страницы*/
+.main__newsletter {
+  background-color: #ff9800;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main__form-title {
+  color: #fff;
+}
+.main__newsletter-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.main__newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__newsletter-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.main__newsletter-button {
+  background-color: #5222d0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
